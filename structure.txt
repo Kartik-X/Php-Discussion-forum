@@ -1,0 +1,24 @@
+CREATE INDEX.PHP--->CREATE 3 FOLDERS SERVER,CLIENT,PUBLIC
+
+IN CLIENT CREATE HEADER.PHP AND COMMONFILES.PHP AND IN COMMONFILES.PHP PASTE BOOTSTRAP5 CDN
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+INCLUDE HEADER.PHP AND COMMONFILES.PHP IN INDEX.PHP AND INSIDE HEADER.PHP COPY PASTE THE NAVBAR BOOTSTRAP COMPONENT CODE.
+
+CREATE SIGNUP.PHP IN CLIENT FOLDER
+
+
+
+
+Try to add a new page with a form on the demo website in cakePHP. The form will
+ contain Name, Phone, Email and Message(text area). Please make sure you do validation on it.
+
+else if(isset($_POST['login'])){
+
+print_r($_POST['login'])
+
+}
